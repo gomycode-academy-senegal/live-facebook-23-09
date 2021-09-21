@@ -1,0 +1,27 @@
+{
+  "name": "live-facebook-23-09",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devProgOussou/live-facebook-23-09.git"
+  },
+  "author": "Ousmane Fall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usmanFall/live-facebook-23-09/issues"
+  },
+  "homepage": "https://github.com/usmanFall/live-facebook-23-09#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "5.10.6",
+    "validator": "^13.6.0"
+  }
+}
+
