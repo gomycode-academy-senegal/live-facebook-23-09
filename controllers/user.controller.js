@@ -1,7 +1,7 @@
 const User = require("../models/User.model");
 const ObjectID = require("mongoose").Types.ObjectId;
 
-module.exports.addUser = async (req, res) => {
+module.exports.addUser = async (req, res, next) => {
   const { firstname, lastname, email, phone, picture } = req.body;
   try {
     const user = User.create({ firstname, lastname, email, phone, picture });
@@ -66,4 +66,9 @@ module.exports.deleteUser = async (req, res) => {
   } catch (err) {
     return res.status(500).send({ message: err });
   }
+};
+
+module.exports.getAllUsers = async (req, res) => {
+  const users = await User.find();
+  res.status(200).json(users);
 };
