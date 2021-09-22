@@ -17,11 +17,14 @@
   },
   "homepage": "https://github.com/usmanFall/live-facebook-23-09#readme",
   "dependencies": {
+    "axios": "^0.21.4",
+    "bootstrap": "^5.1.1",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "jquery": "^3.6.0",
     "mongoose": "5.10.6",
+    "popper.js": "^1.16.1",
     "validator": "^13.6.0"
   }
 }
-
